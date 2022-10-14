@@ -62,3 +62,5 @@ int main()
 
 
 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
+
+ https://github.com/Danir1K/c_labs.git
