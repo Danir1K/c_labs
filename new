@@ -1,0 +1,115 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float c1, c2, c3;
+    printf("Enter c1 -> ");
+    scanf("%f", &c1);
+    printf("Enter c2 -> ");
+    scanf("%f", &c2);
+    printf("Enter c3 -> ");
+    scanf("%f", &c3);
+}
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+#include <stdio.h>
+main()
+{
+    int c1, c2, c3;
+ 
+    printf("Input the values of three numbers : ");
+    scanf("%d %d %d", &c1, &c2, &c3);
+    printf("1st Number = %d,\t2nd Number = %d,\t3rd Number = %d\n", c1, c2, c3);
+    if (c1 > c2)
+    {
+        if (c1 > c3)
+        {
+            printf("The 1st Number is the greatest among three. \n");
+        }
+        else
+        {
+            printf("The 3rd Number is the greatest among three. \n");
+        }
+    }
+    else if (c2 > c3)
+        printf("The 2nd Number is the greatest among three \n");
+    else
+        printf("The 3rd Number is the greatest among three \n");
+	    return 0;
+
+}
+
+
+
+http://kodesource.top/c-programming-exercises/conditional-statement/c-conditional-statement-exercises-8.php
+https://duckduckgo.com/?q=warning%3A+return+type+of+%E2%80%98main%E2%80%99+is+not+%E2%80%98int%E2%80%99+%5B-Wmain%5D&ia=web
+http://medicina-treat.ru/najjti-naibolshee-iz-dvukh-chisel-kod-programmy-na-c-c-java-i-python/
+http://medicina-treat.ru/najjti-naibolshee-iz-dvukh-chisel-kod-programmy-na-c-c-java-i-python/
+https://duckduckgo.com/?q=%D0%92%D1%8B%D0%B2%D0%B5%D1%81%D1%82%D0%B8+%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5%D0%B3%D0%BE+%D0%B8%D0%B7+%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2&ia=web
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+void main()
+{
+	int c1, c2, c3;
+	printf("Enter two number : ");
+	scanf("%d%d",&c1,&c2);
+	if(c1>c2)
+	{
+		int=c1;
+	}
+	else
+	{
+		int=c2;
+	}
+	printf("Biggest of the two number is %d\n");
+}
