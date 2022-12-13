@@ -113,3 +113,132 @@ void main()
 	}
 	printf("Biggest of the two number is %d\n");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+float c1, c2, c3;
+printf("Введите значение c1 ->\t");
+scanf("%f", &c1);
+printf("Введите значение c2 ->\t");
+scanf("%f", &c2);
+printf("Введите значение c3 ->\t");
+scanf("%f", &c3);
+int min;
+    int number;
+    if (c1 < c2){
+        min = c1;
+        number = 1;
+    }
+    if  (c2 < c1)
+    {
+        min = c2;
+        number = 2;
+    }    
+    if (min > c3){
+        min = c3;
+        number = 3;
+    }
+int max;
+int number2;
+    if (c1 > c2){
+        max = c1;
+        number2 = 1;
+    }
+    if  (c1 < c2){
+        max = c2;
+        number2 = 2;
+        }
+    if (max < c3){
+        max = c3;
+        number2 = 3;
+        }
+float sum = c1+c2+c3;
+float t;
+if (max%2 == 0)
+{
+   t = ((max/sum)*100);
+   printf("number = %d\n", number2);
+   printf("%.1f\n", t);
+}
+else 
+{
+   t = (max - min);
+   printf("number min = %d number max = %d\n", number, number2);
+   printf("%.1f\n", t);
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/xplaxcerx/CC
+https://www.w3schools.com/
+https://www.w3schools.com/c/c_conditions.php
+https://www.w3schools.com/c/c_functions_decl.php
+https://www.w3schools.com/c/c_user_input.php
+https://www.w3schools.com/c/c_structs.php
+https://www.w3schools.com/c/
+https://site-translate.opentran.net/
+https://www.w3schools.com/c/tryc.php?filename=demo_helloworld
