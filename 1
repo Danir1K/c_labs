@@ -1,43 +1,43 @@
 #include <stdio.h>
 int main()
 {
-float a1,a2,a3;
-printf("Введите значение a1 ->\t");
-scanf("%f", &a1);
-printf("Введите значение a2 ->\t");
-scanf("%f", &a2);
-printf("Введите значение a3 ->\t");
-scanf("%f", &a3);
+int C1,C2,C3;
+printf("Введите значение C1 ->\n");
+scanf("%d", &C1);
+printf("Введите значение C2 ->\n");
+scanf("%d", &C2);
+printf("Введите значение C3 ->\n");
+scanf("%d", &C3);
 int min;
     int number;
-    if (a1 < a2){
-        min = a1;
+    if (C1 < C2){
+        min = C1;
         number = 1;
     }
-    if  (a2 < a1)
+    if  (C2 < C1)
     {
-        min = a2;
+        min = C2;
         number = 2;
     }    
-    if (min > a3){
-        min = a3;
+    if (min > C3){
+        min = C3;
         number = 3;
     }
 int max;
 int number2;
-    if (a1 > a2){
-        max = a1;
+    if (C1 > C2){
+        max = C1;
         number2 = 1;
     }
-    if  (a1 < a2){
-        max = a2;
+    if  (C1 < C2){
+        max = C2;
         number2 = 2;
         }
-    if (max < a3){
-        max = a3;
+    if (max < C3){
+        max = C3;
         number2 = 3;
         }
-float sum = a1+a2+a3;
+float sum = C1+C2+C3;
 float t;
 if (max%2 == 0)
 {
