@@ -20,12 +20,14 @@ print(zoo)
 # уберите слона
 #  и выведите список на консоль
 # TODO здесь ваш код
-zoo_1 = ['lion', 'kangaroo', 'elephant', 'monkey', 'rooster', 'ostrich', 'lark', ]
-del zoo[4]
-
-
-
+del zoo[3]
+print (zoo)
 
 # выведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark).
 # Номера при выводе должны быть понятны простому человеку, не программисту.
 # TODO здесь ваш код
+lion = zoo.index("lion")
+print("Лев сидит в клетке №", lion + 1)
+
+lark = zoo.index("lark")
+print("Жаворонок сидит в клетке №", lark + 1)
